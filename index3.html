@@ -71,7 +71,6 @@
         </div>
         <hr>
         <hr>
-        <h1 class="text-center bg-primary p-2">Bootstrap dropdown</h1>
         <div class="dropdown">
             <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Menu</button>
             <ul class="dropdown-menu">
@@ -85,7 +84,6 @@
         </div>
         <hr>
         <hr>
-        <h1 class="text-center bg-primary p-2">Bootstrap dropdown</h1>
         <div class="dropdown">
             <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Menu</button>
             <ul class="dropdown-menu">
@@ -159,6 +157,52 @@
                 <li class="dropdown-item">Menu-6</li>
             </ul>
         </div>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <h1 class="text-center bg-primary p-2 text-white">Bootstrap Collapase</h1>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Paragraph</button>
+        <div class="collapse" id="test">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, atque maiores corporis ex ad labore corrupti consectetur alias, est harum a quisquam reprehenderit impedit ipsam vero nostrum quis ullam consequatur, recusandae similique reiciendis. Unde dolorem necessitatibus nemo deserunt voluptate provident praesentium tempora iste, quia voluptatem beatae ullam quod placeat sequi.</p>
+        </div>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Paragraph</button>
+        <div class="collapse show" id="test1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, atque maiores corporis ex ad labore corrupti consectetur alias, est harum a quisquam reprehenderit impedit ipsam vero nostrum quis ullam consequatur, recusandae similique reiciendis. Unde dolorem necessitatibus nemo deserunt voluptate provident praesentium tempora iste, quia voluptatem beatae ullam quod placeat sequi.</p>
+        </div>
+        <hr>
+        <hr>
+        <div id="accordian">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-1">Paragraph-1</button>
+                </div>
+                <div class="card-body collapse show" id="para-1" data-bs-parent="#accordian">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor beatae sunt. Optio, nam reiciendis eos veritatis nulla neque illo error provident incidunt, alias reprehenderit unde! Non quam ipsa molestiae a perspiciatis quibusdam et minima cum nostrum aliquid velit omnis, laborum deserunt blanditiis autem ex veniam est expedita minus eum?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-2">Paragraph-2</button>
+                </div>
+                <div class="card-body collapse" id="para-2" data-bs-parent="#accordian">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor beatae sunt. Optio, nam reiciendis eos veritatis nulla neque illo error provident incidunt, alias reprehenderit unde! Non quam ipsa molestiae a perspiciatis quibusdam et minima cum nostrum aliquid velit omnis, laborum deserunt blanditiis autem ex veniam est expedita minus eum?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-3">Paragraph-3</button>
+                </div>
+                <div class="card-body collapse" id="para-3" data-bs-parent="#accordian">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor beatae sunt. Optio, nam reiciendis eos veritatis nulla neque illo error provident incidunt, alias reprehenderit unde! Non quam ipsa molestiae a perspiciatis quibusdam et minima cum nostrum aliquid velit omnis, laborum deserunt blanditiis autem ex veniam est expedita minus eum?</p>
+                </div>
+            </div>
+        </div>
+        
         <br><br><br><br><br><br><br><br><br><br>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </div>
